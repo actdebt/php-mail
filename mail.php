@@ -1,9 +1,9 @@
 <?php
 
-if (isset($_POST['submit']))   // Name of the Submit button
+if (isset($_POST['Send']))   // Name of the Submit button
 
 {
-    $to = "riteshhota.2008@gmail.com";  // this is your Email address (admin)
+    $to = "actdebt@gmail.com";  // this is your Email address (admin)
     $from = $_POST['email'];    // this is the sender's Email address
     $name = $_POST['name']; // Getting input from the name field - Sender Name
     $subject = "Subject 1"; // Subject name which will be received by the admin
